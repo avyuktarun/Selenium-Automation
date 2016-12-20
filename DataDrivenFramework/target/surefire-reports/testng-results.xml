@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.Senchalogin.SenchaLoginTest" duration-ms="4544" started-at="2016-08-31T14:12:40Z" finished-at="2016-08-31T14:12:45Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="4544" started-at="2016-08-31T14:12:40Z" finished-at="2016-08-31T14:12:45Z">
+      <class name="com.Senchalogin.SenchaLoginTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.Senchalogin.SenchaLoginTest@11f7ef62]" name="launchApp" is-config="true" duration-ms="11130" started-at="2016-08-31T19:42:29Z" finished-at="2016-08-31T19:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="testSenchaLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Senchalogin.SenchaLoginTest@11f7ef62]" name="testSenchaLogin" duration-ms="1397" started-at="2016-08-31T19:42:40Z" data-provider="getExcelData" finished-at="2016-08-31T19:42:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSenchaLogin -->
+        <test-method status="PASS" signature="testSenchaLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Senchalogin.SenchaLoginTest@11f7ef62]" name="testSenchaLogin" duration-ms="1270" started-at="2016-08-31T19:42:42Z" data-provider="getExcelData" finished-at="2016-08-31T19:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSenchaLogin -->
+        <test-method status="PASS" signature="testSenchaLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Senchalogin.SenchaLoginTest@11f7ef62]" name="testSenchaLogin" duration-ms="1687" started-at="2016-08-31T19:42:43Z" data-provider="getExcelData" finished-at="2016-08-31T19:42:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[venugopal.vellepu@walkingtree.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSenchaLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Senchalogin.SenchaLoginTest@11f7ef62]" name="closeBrowser" is-config="true" duration-ms="301" started-at="2016-08-31T19:42:45Z" finished-at="2016-08-31T19:42:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Senchalogin.SenchaLoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.Senchalogin.SenchaLoginTest -->
+</testng-results>
