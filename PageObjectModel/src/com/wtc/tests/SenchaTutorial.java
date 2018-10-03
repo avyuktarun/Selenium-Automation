@@ -1,7 +1,10 @@
 package com.wtc.tests;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import com.wtc.pageObjects.LoginPage;
@@ -15,26 +18,19 @@ public class SenchaTutorial {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://senchatutorials.in");
-		Thread.sleep(15000);
 		System.out.println("********Login Page********");
 		LoginPage login = new LoginPage(driver);
-		
 		login.userName();
 		login.password();
 		login.signinBtn();
-		Thread.sleep(15000);
-		
 		System.out.println("********Home Page********");
 		HomePage home = new HomePage(driver);
 		home.clickOnFundamentals();
 		home.clickOnWorkingWithElements();
-		Thread.sleep(3000);
 		home.clickOnModifyStyle();
-		Thread.sleep(5000);
-		
 		//Close the driver
 		driver.close();
-		
 	}
-
 }
+
+
